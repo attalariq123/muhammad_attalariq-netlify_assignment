@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Muhammad Attalariq | Computer Science Student</title>
+    <link rel="shortcut icon" href="/src/images/favicon.ico" type="image/x-icon" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                screens: {
+                    'phone': '320px',
+                    'tablet': '640px',
+                    'md': '768px',
+                    'laptop': '1024px',
+                    'desktop': '1280px',
+                },
+            }
+        }
+    </script>
+    <style>
+        @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+        header {
+            background-color: palegoldenrod;
+        }
+
+        *,
+        *::before,
+        *::after {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body,
+        button,
+        input,
+        textarea {
+            font-family: "Poppins", sans-serif;
+        }
+
+        .card {
+            background-color: palegoldenrod;
+        }
+
+        .card-wrap:hover .card {
+            transform: translateY(-15px);
+        }
+
+        footer {
+            background-color: palegoldenrod;
+        }
+    </style>
+</head>
+
+<body>
+
+    <main>
+
+        <header class="w-full overflow-hidden relative h-screen">
+            <nav class="w-full relative z-50">
+                <div class="box-content flex justify-between h-24 items-center px-2">
+                    <div class="w-80 flex items-center">
+                        <img class="box-content tablet:h-20 tablet:w-20 phone:w-16 phone:h-16" src="/src/images/favicon.ico" alt="logo" width="50"
+                            height="50" />
+                        <p class="inline-flex font-semibold md:text-xl phone:text-base text-slate-700">Muhammad
+                            Attalariq
+                        </p>
+                    </div>
+
+                    <div class="nav-picture place-content-end phone:flex tablet:hidden">
+                        <img class="rounded-full relative w-20 h-full" src="/src/images/profile.jpg" alt="profile" />
+                    </div>
+
+                    <div class="links phone:hidden tablet:flex">
+                        <ul class="flex">
+                            <li>
+                                <a class="inline-block py-0.5 px-5 text-xl font-medium capitalize text-slate-700 hover:text-gray-600"
+                                    href="https://www.linkedin.com/in/muhattalariq/">linkedin</a>
+                            </li>
+                            <li><a class="inline-block py-0.5 px-5 text-xl font-medium capitalize text-slate-700 hover:text-gray-600"
+                                    href="https://github.com/attalariq123">github</a></li>
+                            <li><a class="inline-block py-0.5 px-5 text-xl font-medium capitalize text-slate-700 hover:text-gray-600"
+                                    href="mailto:attalariq002@gmail.com">email</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+
+            <div class="h-4/5">
+                <div
+                    class="tablet:grid phone:flex grid-cols-2 gap-2 tablet:mx-32 phone:mx-8 h-full tablet:text-left phone:text-center items-center">
+                    <div class="tablet:grid">
+                        <div class="text-2xl phone:text-xl text-slate-700 font-semibold">
+                            <h2>🖐 Hello Everyone,</h2>
+                            <h2>I'm Muhammad Attalariq</h2>
+                        </div>
+                        <p class="text-black py-5">
+                            A final year student at Telkom University with a major in
+                            Computer Science. I have a passion for computer programming and
+                            information technology, always open to learning new things and
+                            getting involved with new projects that can help me learn or apply
+                            all that I have learned throughout my university career.
+                        </p>
+                    </div>
+
+                    <div class="tablet:grid phone:hidden place-content-center">
+                        <img class="main-picture rounded-full tablet:flex phone:hidden w-72 max-h-screen"
+                            src="/src/images/profile.jpg" alt="profile" />
+                    </div>
+
+                </div>
+            </div>
+
+        </header>
+
+        <section class="experiences section py-16" id="experiences">
+
+            <div class="container relative max-w-7xl px-16 mx-auto">
+                <div class="section-header text-center mb-6">
+                    <h2
+                        class="title relative inline-block leading-4 tablet:text-4xl phone:text-3xl text-slate-700 font-medium">
+                        💼 Experiences
+                    </h2>
+                </div>
+            </div>
+
+            <div class="cards flex justify-around flex-wrap w-full">
+
+                <div class="card-wrap relative my-5 mx-4">
+                    <div
+                        class="card relative w-full max-w-sm tablet:h-96 phone:h-70 flex items-center justify-center px-8 py-8 overflow-hidden transition rounded-2xl">
+                        <div class="card-content">
+                            <h4
+                                class="title-sm leading-5 text-left text-slate-700 font-medium tablet:text-xl phone:text-lg mb-2">
+                                Independent
+                                Study: Backend Engineering</h4>
+                            <h4
+                                class="title-sm-2 text-left text-slate-700 tablet:text-base phone:text-sm leading-4 font-normal">
+                                Ruangguru |
+                                Aug 2022 - Present</h4>
+                            <p class="text tablet:text-base phone:text-sm my-4 text-black">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo sint temporibus sapiente,
+                                eum itaque suscipit non quod ad, corporis quam omnis natus ipsa ut blanditiis mollitia
+                                totam quasi. Similique repellat dolores harum eos qui. Esse omnis expedita aspernatur
+                                illo? Ex.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card-wrap relative my-5 mx-4">
+                    <div
+                        class="card relative w-full max-w-sm tablet:h-96 phone:h-70 flex items-center justify-center px-8 py-8 overflow-hidden transition rounded-2xl">
+                        <div class="card-content">
+                            <h4
+                                class="title-sm leading-5 text-left text-slate-700 font-medium tablet:text-xl phone:text-lg mb-2">
+                                Django
+                                Developer Intern</h4>
+                            <h4
+                                class="title-sm-2 text-left text-slate-700 tablet:text-base phone:text-sm leading-4 font-normal">
+                                Direktorat
+                                PPM Telkom University | July 2022 - Sept 2022</h4>
+                            <p class="text tablet:text-base phone:text-sm my-4 text-black">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo sint temporibus sapiente,
+                                eum itaque suscipit non quod ad, corporis quam omnis natus ipsa ut blanditiis mollitia
+                                totam quasi. Similique repellat dolores harum eos qui. Esse omnis expedita aspernatur
+                                illo? Ex.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card-wrap relative my-5 mx-4">
+                    <div
+                        class="card relative w-full max-w-sm tablet:h-96 phone:h-70 flex items-center justify-center px-8 py-8 overflow-hidden transition rounded-2xl">
+                        <div class="card-content">
+                            <h4
+                                class="title-sm leading-5 text-left text-slate-700 font-medium tablet:text-xl phone:text-lg mb-2">
+                                Project-Based Intern: Data Scientist Virtual Internship</h4>
+                            <h4
+                                class="title-sm-2 text-left text-slate-700 tablet:text-base phone:text-sm leading-4 font-normal">
+                                Home Credit
+                                Indonesia | July 2022 - Aug 2022</h4>
+                            <p class="text tablet:text-base phone:text-sm my-4 text-black">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo sint temporibus sapiente,
+                                eum itaque suscipit non quod ad, corporis quam omnis natus ipsa ut blanditiis mollitia
+                                totam quasi. Similique repellat dolores harum eos qui. Esse omnis expedita aspernatur
+                                illo? Ex.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+
+        <section class="certifications section" id="section">
+            <div class="container relative max-w-7xl px-16 mx-auto">
+                <div class="section-header text-center mb-6">
+                    <h2
+                        class="title relative inline-block leading-4 tablet:text-4xl phone:text-3xl text-slate-700 font-medium">
+                        📑
+                        Certifications</h2>
+                </div>
+            </div>
+
+            <div class="cards flex justify-around flex-wrap w-full">
+
+                <div class="card-wrap relative my-5 mx-4">
+                    <div
+                        class="card relative w-full max-w-sm h-40 flex items-center justify-center px-8 py-8 overflow-hidden transition rounded-2xl">
+                        <div class="card-content">
+                            <h4 class="title-sm leading-5 text-left text-slate-700 font-medium text-xl mb-2">Flutter &
+                                Dart Development</h4>
+                            <h4 class="title-sm-2 text-left text-slate-700 font-normal text-base leading-4">Udemy</h4>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card-wrap relative my-5 mx-4">
+                    <div
+                        class="card relative w-full max-w-sm h-40 flex items-center justify-center px-8 py-8 overflow-hidden transition rounded-2xl">
+                        <div class="card-content">
+                            <h4 class="title-sm leading-5 text-left text-slate-700 font-medium text-xl mb-2">Machine
+                                Learning Foundations</h4>
+                            <h4 class="title-sm-2 text-left text-slate-700 font-normal text-base leading-4">Coursera
+                            </h4>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card-wrap relative my-5 mx-4">
+                    <div
+                        class="card relative w-full max-w-sm h-40 flex items-center justify-center px-8 py-8 overflow-hidden transition rounded-2xl">
+                        <div class="card-content">
+                            <h4 class="title-sm leading-5 text-left text-slate-700 font-medium text-xl mb-2">Getting
+                                Started with Python</h4>
+                            <h4 class="title-sm-2 text-left text-slate-700 font-normal text-base leading-4">Coursera
+                            </h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="mt-8 py-2 px-8 block overflow-auto">
+
+        <div class="container relative max-w-7xl tablet:px-16 mx-auto py-8">
+            <div class="section-header text-center">
+                <h2
+                    class="title relative inline-block leading-4 tablet:text-4xl phone:text-3xl text-slate-700 font-medium">
+                    📞 Contact Me!
+                </h2>
+            </div>
+        </div>
+
+        <form class="flex flex-col items-center">
+            <label for="input-email" class="block mb-2 text-sm font-medium text-slate-700">Your Email</label>
+            <div class="mb-4 tablet:w-1/2 phone:w-full">
+                <input type="email" id="input-email"
+                    class="border text-sm rounded-lg block w-full p-2.5 bg-gray-700 border-gray-600 placeholder-gray-400 text-white"
+                    placeholder="your@email.com">
+            </div>
+
+            <label for="input-name" class="block mb-2 text-sm font-medium text-slate-700">Your Name</label>
+            <div class="mb-4 tablet:w-1/2 phone:w-full">
+                <input type="text" id="input-name"
+                    class="rounded-lg border block flex-1 min-w-0 w-full text-sm p-2.5 bg-gray-700 border-gray-600 dark:placeholder-gray-400 text-white"
+                    placeholder="elonmusk">
+            </div>
+
+            <label for="message" class="block mb-2 text-sm font-medium text-slate-700">Your
+                message</label>
+            <textarea id="message" rows="4"
+                class="block p-2.5 tablet:w-1/2 phone:w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                placeholder="Your message...">
+            </textarea>
+            <input type="submit" value="Submit"
+                class="tablet:w-1/2 phone:w-full px-4 py-1 my-3 text-sm bg-slate-700 text-white font-semibold rounded-full border border-slate-700 hover:text-white hover:bg-slate-500 hover:border-transparent"></input>
+
+        </form>
+    </footer>
+</body>
+
+</html>
